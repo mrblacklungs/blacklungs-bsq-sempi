@@ -92,7 +92,6 @@
     color:#785e41;
     text-align: center;
     padding: 15px;
-    border:transparent;
     font-family:'Playfair Display', serif;
     -webkit-box-reflect: below -23px linear-gradient(transparent, rgba(255, 255, 255, 0.397));
 }
@@ -108,4 +107,5 @@
     font-family: sans-serif;
     letter-spacing: 5%;
     overflow: auto;
+    margin-top:20px;
 }
