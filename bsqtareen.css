@@ -142,31 +142,31 @@ body {
 }
 /* Tamaño de la barra (ancho para vertical, alto para horizontal) */
 .bsqcont2 .desc::-webkit-scrollbar {
-    width: 6px;               /* Un grosor sutil de 6px queda muy estético en tablones */
-    background: transparent;  /* Fondo del carril transparente para que no rompa tu diseño */
+    width: 6px;!important;               /* Un grosor sutil de 6px queda muy estético en tablones */
+    background: transparent;!important;  /* Fondo del carril transparente para que no rompa tu diseño */
 }
 
 /* El carril o fondo por donde se mueve la barra */
 .bsqcont2 .desc::-webkit-scrollbar-track {
-    background: transparent; 
-    border-radius: 4px;
+    background: transparent;!important; 
+    border-radius: 4px;!important;
 }
 
 /* El tirador o "pastilla" que arrastras con el ratón */
 .bsqcont2 .desc::-webkit-scrollbar-thumb {
-    background-color: #785e4180; /* El color marrón de tu diseño con opacidad */
-    border-radius: 4px;          /* Bordes redondeados */
-    transition: background-color 0.3s ease;
+    background-color: #785e4180;!important; /* El color marrón de tu diseño con opacidad */
+    border-radius: 4px;!important;          /* Bordes redondeados */
+    transition: background-color 0.3s ease;!important;
 }
 
 /* Efecto hover: cuando el usuario pasa el ratón por encima del tirador */
 .bsqcont2 .desc::-webkit-scrollbar-thumb:hover {
-    background-color: #785e41d7; /* Se vuelve más sólido al pasar el cursor */
+    background-color: #785e41d7;!important; /* Se vuelve más sólido al pasar el cursor */
 }
 
 
 /* 2. Compatibilidad para Firefox (A partir de sus últimas versiones) */
 .bsqcont2 .desc {
-    scrollbar-width: thin;          /* Hace la barra más fina */
-    scrollbar-color: #785e4180 transparent; /* Color del tirador y fondo del carril */
+    scrollbar-width: thin;!important;          /* Hace la barra más fina */
+    scrollbar-color: #785e4180 transparent;!important; /* Color del tirador y fondo del carril */
 }
