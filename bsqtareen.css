@@ -1,4 +1,4 @@
-body {
+body .bsqcont2  {
     --background-2: var(--bckg-2);
     --background-1: var(--bckg-1);
     --background-3: var(--bckg-3);
@@ -7,25 +7,13 @@ body {
     --color-icon: var(--cicon);
     }
     
-    body.day {
+    body.day .bsqcont2  {
     --background-txt: #f1f1f130;!important;
     }
 
-    body.night {
+    body.night .bsqcont2  {
     --background-txt: #0e0e0ed4;!important;
     }
-
-:root {
-    --background-txt: #ffffff3b;
-}
-
-:root:has(.day), .day {
-    --background-txt: #ffffff3b !important;
-}
-
-:root:has(.night), .night {
-    --background-txt: #24242475 !important;
-}
 
 .bsqcont2 {
     height: 350px;
