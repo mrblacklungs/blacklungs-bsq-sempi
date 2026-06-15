@@ -1,3 +1,25 @@
+    body {
+    --background-2: var(--bckg-2);
+    --background-1: var(--bckg-1);
+    --background-3: var(--bckg-3);
+    --accent: var(--acc-1);
+    --cborder: var(--brd-c);
+    --color-icon: var(--cicon);
+    }
+    
+    body.day {
+    --backkground-desc: #ffffff3b;
+    }
+
+    body.night {
+    --backkground-desc: #24242475;
+    }
+
+.ery {
+    --blancorgb: 255, 255, 255;
+    --negrorgb: 0, 0, 0;
+}
+
 .bsqcont2 {
     height: 350px;
     width: 700px;
@@ -78,7 +100,7 @@
 }
 
 .bsqcont2 .txt{
-    background-color: #0e0e0e;
+    background-color: var(--backkground-desc);
     height: 100%;
     width: 100%;
     outline: 1px solid #785e4157;
@@ -93,19 +115,21 @@
     text-align: center;
     padding: 15px;
     font-family:'Playfair Display', serif;
-    -webkit-box-reflect: below -23px linear-gradient(transparent, rgba(255, 255, 255, 0.397));
+    -webkit-box-reflect: below -40px linear-gradient(transparent, rgba(255, 255, 255, 0.397));
 }
 
 .bsqcont2 .desc{
+    position: relative;
+    top:35px;
     height: 200px;
     font-size: 14px;
     color:#999999e3;
     text-align:justify;
-    padding: 20px;
-    padding-top:35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     line-height: 22px;
     font-family: sans-serif;
     letter-spacing: 5%;
     overflow: auto;
-    margin-top:20px;
 }
