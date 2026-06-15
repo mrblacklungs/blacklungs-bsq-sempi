@@ -20,7 +20,7 @@ body .bsqcont2  {
 }
 
     body.night .bsqcont2 .imagen::after {
-    --imagen-gradiente: linear-gradient(to bottom, rgba(0, 0, 0, 0.164) 0%, rgba(0, 0, 0, 0.87) 100%) !important;
+    --imagen-gradiente: linear-gradient(to bottom, rgb(0 0 0 / 53%) 0%, rgb(0 0 0 / 63%) 100%) !important
 }
 
 .bsqcont2 {
