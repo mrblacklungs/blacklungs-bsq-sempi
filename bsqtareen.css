@@ -16,7 +16,7 @@ body .bsqcont2  {
     }
 
     body.day .bsqcont2 .imagen::after {
-    --imagen-gradiente: linear-gradient(to bottom, rgb(187 187 187 / 0%) 0%, rgb(196 196 196 / 59%) 100%) !important;
+    --imagen-gradiente: linear-gradient(to bottom, rgb(187 187 187 / 0%) 0%, rgb(196 196 196) 100%) !important
 }
 
     body.night .bsqcont2 .imagen::after {
