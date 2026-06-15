@@ -8,11 +8,11 @@
     }
     
     body.day {
-    --backkground-desc: #ffffff3b;
+    --background-txt: #ffffff3b;
     }
 
     body.night {
-    --backkground-desc: #24242475;
+    --background-txt: #24242475;
     }
 
 .ery {
@@ -100,7 +100,7 @@
 }
 
 .bsqcont2 .txt{
-    background-color: var(--backkground-desc);
+    background-color: var(--background-txt);
     height: 100%;
     width: 100%;
     outline: 1px solid #785e4157;
