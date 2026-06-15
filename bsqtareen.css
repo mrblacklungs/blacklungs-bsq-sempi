@@ -12,7 +12,7 @@ body .bsqcont2  {
     }
 
     body.night .bsqcont2  {
-    --background-txt: #0e0e0ed4;!important;
+    --background-txt: #0a0a0a7a;!important;
     }
 
     body.day .bsqcont2 .imagen::after {
