@@ -1,4 +1,4 @@
-    body {
+body .bsqcont2  {
     --background-2: var(--bckg-2);
     --background-1: var(--bckg-1);
     --background-3: var(--bckg-3);
@@ -7,12 +7,12 @@
     --color-icon: var(--cicon);
     }
     
-    body.day {
-    --background-desc: #ffffff3b;
+    body.day .bsqcont2  {
+    --background-txt: #f1f1f130;!important;
     }
 
-    body.night {
-    --background-desc: #24242475;
+    body.night .bsqcont2  {
+    --background-txt: #0e0e0ed4;!important;
     }
 
     body.day .bsqcont2 .imagen::after {
