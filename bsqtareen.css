@@ -9,11 +9,11 @@
     }
     
     body.day {
-    --background-txt: #ffffff3b;
+    --background-txt: #f1f1f130;
     }
 
     body.night {
-    --background-txt: #24242475;
+    --background-txt: #0e0e0ed4;
     }
 
 .ery {
