@@ -103,7 +103,7 @@ body .bsqcont2  {
 }
 
 .bsqcont2 .txt{
-    background-color: var(--background-desc);
+    background-color: var(--background-txt);
     height: 100%;
     width: 100%;
     outline: 1px solid #785e4157;
