@@ -29,11 +29,11 @@ body, body .bsqcont2  {
     --background-bsq3k: #0a0a0a7a !important;
     }
 
-    body.day .bsq3k-img::after {
+    body.day .bsq3k-img::before {
     --imagen-gradiente: linear-gradient(to bottom, rgb(187 187 187 / 0%) 0%, rgb(196 196 196) 100%) !important;
 }
 
-    body.night .bsq3k-img::after {
+    body.night .bsq3k-img::before {
     --imagen-gradiente: linear-gradient(to bottom, rgb(0 0 0 / 53%) 0%, rgb(0 0 0 / 63%) 100%) !important;
 }
 
