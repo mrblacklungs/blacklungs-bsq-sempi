@@ -139,6 +139,10 @@ body, body .bsqcont2  {
     font-size: 17px;
 }
 
+.bsq3k .bsq3k-dts span:first-child {
+    border-right: 1px solid var(--g2);
+}
+
 .bsq3k .bsq3k-dts .span .content.clearfix strong {
     font-size: 14px;
 }
