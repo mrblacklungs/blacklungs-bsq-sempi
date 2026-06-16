@@ -117,7 +117,8 @@ body, body .bsqcont2  {
     margin-bottom: 0;
     grid-template-columns: 1fr 1fr;
     border: #999999;
-    padding-top: 10px;
+    padding-top: 15px;
+    margin-top:15px;
 }
 
 .bsq3k .bsq3k-dts span {
@@ -134,13 +135,12 @@ body, body .bsqcont2  {
 }
 
 .bsq3k .bsq3k-txt .bsq3k-alert {
-    margin-top:80px;
     width: auto;
     height: auto;
     border: 1px solid var(--g2);
     padding: 10px;
     margin-bottom: 40px;
-    margin-top:15px;
+    margin-top:5px;
     background: rgba(22, 22, 22, 0.192);
 }
 
