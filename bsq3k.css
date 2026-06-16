@@ -67,6 +67,7 @@ body, body .bsqcont2  {
     grid-template-columns: 1fr 1fr 1fr;
     overflow: hidden;
     height: 320px;
+    border-bottom: 1px solid #ffffff17;
 }
 
 .bsq3k .bsq3k-img img{
@@ -122,6 +123,7 @@ body, body .bsqcont2  {
     border: #999999;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-bottom: 1px solid #ffffff17;
 }
 
 .bsq3k .bsq3k-dts span {
