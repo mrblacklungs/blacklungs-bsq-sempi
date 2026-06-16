@@ -89,7 +89,6 @@ body, body .bsqcont2  {
 }
 
 .bsq3k .bsq3k-name {
-    grid-row-start: 3;
     grid-column-start: 1;
     grid-column-end: 4;
     text-align: center;
@@ -100,6 +99,9 @@ body, body .bsqcont2  {
     font-family: 'Playfair Display', serif;
     transition: 1s ease;
     z-index: 5;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
 }
 
 .bsq3k:hover .bsq3k-name {
