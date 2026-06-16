@@ -164,6 +164,8 @@ body, body .bsqcont2  {
     font-family: sans-serif;
     line-height: 24px;
     font-size: 14px;
+    scrollbar-width: thin !important;
+    scrollbar-color: var(--g2) transparent !important;
 }
 
 .bsq3k .bsq3k-txt .bsq3k-int1 {
