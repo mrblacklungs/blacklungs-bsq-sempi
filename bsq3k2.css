@@ -32,7 +32,7 @@ body, body .bsqcont2  {
     }
 
     body.day .bsq3k-img::before {
-    --imagen-gradiente: linear-gradient(to bottom, rgb(122 122 122 / 22%) 0%, rgb(0 0 0 / 20%) 100%) !important;
+    --imagen-gradiente: linear-gradient(to bottom, rgb(0 0 0 / 22%) 0%, rgb(0 0 0 / 20%) 100%) !important;
 }
 
     body.night .bsq3k-img::before {
