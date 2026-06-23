@@ -1,23 +1,4 @@
 body .smt-post-tab  {
---background-2: var(--bckg-2);
-    --background-1: var(--bckg-1);
-    --background-3: var(--bckg-3);
-    --accent: var(--acc-1);
-    --cborder: var(--brd-c);
-    --color-icon: var(--cicon);
-    --g1: var(--staff);
-    --g2: var(--ciudadanos);
-    --g3: var(--celebridades);
-    --g4: var(--sanidad);
-    --g5: var(--seguridad);
-    --g6: var(--empresarios);
-    --g7: var(--criminales);
-    --g8: var(--pesca);
-    --g9: var(--refineria);
-    --g10: var(--sami);
-    --g11: var(--pnj);
-    --g12: var(--inactivos);
-    --color: var(--ctext);
     margin: auto;
     }
 
