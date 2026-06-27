@@ -1,12 +1,3 @@
-body .bsqcont2  {
-    --background-2: var(--bckg-2);
-    --background-1: var(--bckg-1);
-    --background-3: var(--bckg-3);
-    --accent: var(--acc-1);
-    --cborder: var(--brd-c);
-    --color-icon: var(--cicon);
-    }
-
     body.day .bsqcont1, body.day .bsqcont2 {
     --background-txt: #f1f1f130 !important;
     }
