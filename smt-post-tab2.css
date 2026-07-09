@@ -6,12 +6,6 @@
     --background-post-tab2: #0a0a0a7a !important;
     }
 
-body {
-    background-color: #464646;
-    margin: 0;
-    padding: 20px;
-}
-
 .smt-post-tab2 {
     width: 750px;
     margin: 10px auto;
