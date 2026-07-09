@@ -12,7 +12,7 @@ body .smt-post-tab  {
 
 .smt-post-tab {
     width: 750px;
-    margin: auto;
+    margin: 10px auto;
     padding: 40px;
     box-sizing: border-box;
     background-color: var(--background-post-tab);
