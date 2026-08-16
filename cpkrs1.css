@@ -149,25 +149,25 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align:center;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .cpkrs1 .cpkrs1-dts span{ 
     position: relative;
     top:35px;
-    left: 8px;
     color:white;
-    margin: 7px;
-    border-radius: 10px;
+    margin: 0px;
     font-family: 'Poppins';
     text-transform: uppercase;
     font-size: 11px;
-    padding-top:10px;
+    padding:7px 4px;
     white-space: nowrap;
 }
 
 .cpkrs1 .cpkrs1-dts span:after{
     content:"—";
-    padding-left: 25px;
+    padding-left: 15px;
  }
 
  .cpkrs1 .cpkrs1-dts span:last-of-type:after{
