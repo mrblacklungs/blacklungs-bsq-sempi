@@ -145,16 +145,6 @@ body {
     grid-column: 1/5;
 }
 
-.cpkrs1 .cpkrs1-text::first-letter {
-  font-size: 60px;
-  float:left;
-  padding:11px;
-  font-style: italic;
-  line-height: 40px;
-  font-family: 'Playfair Display';
-  color:var(--accent);
-}
-
 .cpkrs1 .cpkrs1-dts{
     grid-column: 1/5;
     border-bottom: 1px solid var(--accent);
