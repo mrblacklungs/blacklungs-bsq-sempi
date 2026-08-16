@@ -122,17 +122,18 @@ body {
     letter-spacing: 2px;
     grid-column: 2/4;
     padding-bottom:15px;
+    padding-top:20px;
 }
 
 .cpkrs1 .cpkrs1-subtitle {
     text-align: center;
-    padding-top:15px;
+    padding-top:5px;
     padding-bottom: 10px;
     text-transform: uppercase;
-    text-decoration:line-through;
     color:var(--background-cpkrsub);
     font-size: 10px;
-    letter-spacing: 1px;
+    font-style:italic;
+    letter-spacing: 2px;
     font-weight: bold;
     grid-column: 2/4;
 }
