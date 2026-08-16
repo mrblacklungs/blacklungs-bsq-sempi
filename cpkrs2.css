@@ -106,16 +106,17 @@ body .cpkrs2  {
 
 .cpkrs2 .cpkrs2-title {
     width: auto;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     padding-top: 10px;
     margin-top:20px;
-    margin-right: 82px;
+    margin-right: 40px;
     font-size: 45px;
     font-family: 'Playfair Display';
     color: var(--accent);
     letter-spacing: 2px;
-    grid-column: 2/5;
+    grid-column: 1/5;
+    white-space:nowrap;
 }
 
 .cpkrs2 .cpkrs2-title2 {
@@ -126,9 +127,10 @@ body .cpkrs2  {
     color: var(--accent);
     margin-left:40px;
     letter-spacing: 2px;
-    grid-column: 2/4;
+    grid-column: 1/5;
     padding-bottom:15px;
     padding-top:20px;
+    white-space:nowrap;
 }
 
 .cpkrs2 .cpkrs2-subtitle {
