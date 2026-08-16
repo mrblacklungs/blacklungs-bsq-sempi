@@ -82,13 +82,13 @@ body .cpkrs2  {
     body.day .cpkrs2, body.day .cpkrs2 {
     --background-cpkrs2: #e9e9e954 !important;
     --background-cpkrsub:#3a3a3a !important;
-    --background-shadow:#e9e9e954 !important;
+    --outline:#e9e9e954 !important;
     }
 
     body.night .cpkrs2, body.night .cpkrs2 {
     --background-cpkrs2: #1212121f !important;
     --background-cpkrsub:rgb(209, 208, 208) !important;
-    --background-shadow:#1212121f !important;
+    --outline:#1212121f !important;
     }
 
 .cpkrs2 {
@@ -96,9 +96,9 @@ body .cpkrs2  {
     margin: auto;
     padding: 40px;
     background-color: var(--background-cpkrs2);
-    box-shadow:0 0 0 15px var(--background-shadow);
+    box-shadow:0 0 0 15px var(--background-cpkrs2);
     border:1px solid var(--accent);
-    outline: 1px solid var(--background-cpkrs2);
+    outline: 1px solid var(--outline);
     outline-offset: 7px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
