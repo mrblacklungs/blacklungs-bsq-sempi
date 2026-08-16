@@ -157,12 +157,9 @@ body {
 .cpkrs1 .cpkrs1-dts{
     grid-column: 1/5;
     border-bottom: 1px solid var(--accent);
-    margin-bottom: 10px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 20px;
     text-align:center;
     justify-content:space-between;
-    align-items:center;
 }
 
 .cpkrs1 .cpkrs1-dts span{ 
