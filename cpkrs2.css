@@ -82,13 +82,13 @@ body .cpkrs2  {
     body.day .cpkrs2, body.day .cpkrs2 {
     --background-cpkrs2: #e9e9e954 !important;
     --background-cpkrsub:#3a3a3a !important;
-    --background-shadow:#1c1c1c24 !important;
+    --background-shadow:#e9e9e954 !important;
     }
 
     body.night .cpkrs2, body.night .cpkrs2 {
-    --background-cpkrs2: #0000001f !important;
+    --background-cpkrs2: #1212121f !important;
     --background-cpkrsub:rgb(209, 208, 208) !important;
-    --background-shadow:#1c1c1c !important;
+    --background-shadow:#1212121f !important;
     }
 
 .cpkrs2 {
