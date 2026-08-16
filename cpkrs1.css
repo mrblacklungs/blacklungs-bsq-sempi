@@ -146,6 +146,8 @@ body {
     grid-column: 1/5;
     border-bottom: 1px solid var(--accent);
     margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .cpkrs1 .cpkrs1-dts span{ 
@@ -160,6 +162,7 @@ body {
     text-transform: uppercase;
     font-size: 11px;
     padding-top:10px;
+    white-space: nowrap;
 }
 
 .cpkrs1 .cpkrs1-dts span:after{
