@@ -130,7 +130,7 @@ body {
     padding-bottom: 10px;
     text-transform: uppercase;
     text-decoration:line-through;
-    font-color:var(--background-cpkrsub);
+    color:var(--background-cpkrsub);
     font-size: 10px;
     letter-spacing: 1px;
     font-weight: bold;
