@@ -103,7 +103,6 @@ body {
     text-transform: uppercase;
     padding-top: 10px;
     font-size: 45px;
-    font-weight: bold;
     font-family: 'Playfair Display';
     color: var(--accent);
     margin-right: 82px;
@@ -115,23 +114,21 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-size: 47px;
-    font-weight: bold;
     font-family: 'Playfair Display';
     color: var(--accent);
     margin-left:70px;
-    margin-top: -20px;
     letter-spacing: 2px;
     grid-column: 2/4;
+    padding-bottom:15px;
 }
 
 .cpkrs1 .cpkrs1-subtitle {
-    position:relative;
     text-align: center;
+    padding-top:15px;
     padding-bottom: 10px;
     text-transform: uppercase;
     text-decoration:line-through;
     font-size: 10px;
-    font-family: 'Lato' sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
     color: rgb(209, 208, 208);
@@ -141,10 +138,8 @@ body {
 .cpkrs1 .cpkrs1-text {
     text-align: justify;
     padding: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
     grid-column: 1/5;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
 }
 
 .cpkrs1 .cpkrs1-dts{
